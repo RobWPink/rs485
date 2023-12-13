@@ -1,0 +1,9 @@
+services:
+  rs485:
+    build: .
+    image: rs485
+    restart: always
+    tty: true
+    read_only: true
+    user: "0"
+    privileged: true
